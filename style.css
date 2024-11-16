@@ -5,7 +5,10 @@ body {
     flex-direction: column;
     height: 100vh;
     font-family: Arial, sans-serif;
-    user-select: none;
+    -user-select: none;
+    -webkit-user-select: none;        
+    -moz-user-select: none; 
+    -ms-user-select: none;
 }
 
 .field {
