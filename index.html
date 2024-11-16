@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Волейбол</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="field">
+        <div class="half red" onclick="addScore('red')">
+            <div id="red-score">0</div>
+        </div>
+        <div class="half blue" onclick="addScore('blue')">
+            <div id="blue-score">0</div>
+        </div>
+    </div>
+    <div class="controls">
+        <button class="reset-btn" onclick="resetGame()">Почати з початку</button>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
